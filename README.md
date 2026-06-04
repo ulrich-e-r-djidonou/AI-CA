@@ -36,6 +36,7 @@ Version initiale : prototype fonctionnel d'observatoire interactif, avec une men
 
 ## Documentation
 
+- [Instructions Codex](AGENTS.md)
 - [Journal de projet](docs/project-log.md)
 - [Decisions](docs/decisions.md)
 - [Validation et limites](docs/validation/sources.md)

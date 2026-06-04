@@ -26,6 +26,21 @@ Ulrich veut creer un site interactif a partir de la page officielle d'ISDE sur l
 - La page d'aperçu ISDE mentionne une cible de 75% d'adoption d'ici 2031, tandis que la strategie complete mentionne 60% d'ici 2034. Le site signale cette divergence comme point a verifier.
 - Premier rendu inspecte : contraste de la roue strategique ajuste apres capture visuelle.
 
+## 2026-06-04, standardisation Codex
+
+### Contexte
+
+Ulrich veut standardiser les instructions projet pour Codex avec `AGENTS.md`.
+
+### Actions
+
+- Ajout de `AGENTS.md` comme fichier d'instructions Codex du projet.
+- Ajout d'un lien vers `AGENTS.md` dans `README.md`.
+
+### Note
+
+`CLAUDE.md` existe encore parce qu'il n'a pas ete supprime explicitement. Il pourra etre retire apres confirmation si le projet doit n'utiliser que `AGENTS.md`.
+
 ### Commandes utiles
 
 ```powershell
