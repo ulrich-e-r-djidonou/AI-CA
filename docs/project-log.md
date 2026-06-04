@@ -58,3 +58,48 @@ Ulrich veut retirer le positionnement editorial secondaire. Le projet doit reste
 npm run dev
 npm run check
 ```
+
+## 2026-06-04, règle d'or et comparaisons
+
+### Contexte
+
+Ulrich fixe une règle éditoriale stricte : ne rien mettre dans le tableau de bord si cela ne vient pas de la stratégie nationale.
+
+### Actions
+
+- Ajout de la règle d'or dans `AGENTS.md`, `README.md` et `docs/validation/sources.md`.
+- Passage du contenu visible vers la version française officielle de la stratégie.
+- Remplacement des titres anglais et des libellés non accentués.
+- Remplacement des points `À surveiller` non sourcés par des points de suivi tirés de la stratégie.
+- Ajout d'une section de comparaisons uniquement avec les données présentes dans la stratégie nationale : adoption des entreprises, PME, pays nordiques, Allemagne, France, adoption individuelle, littératie, confiance et électricité propre.
+
+### Source principale
+
+`https://ised-isde.canada.ca/site/isde/fr/strategie-nationale-matiere-dintelligence-artificielle-canada-lia-pour-tous`
+
+## 2026-06-04, vérification de fidélité et ajout de chiffres
+
+### Contexte
+
+Contrôle au mot près des affirmations du site, et non seulement de l'existence des chiffres. Objectif : éviter qu'un chiffre juste soit raccroché à une affirmation qui n'est pas celle de la stratégie.
+
+### Actions
+
+- Vérification verbatim des éléments sensibles : superordinateur d'ici 2031, agents d'IA pour les étudiants, 90 000 jeunes Canadiens, 250 000 emplois, chiffres de l'écosystème, 187 G$. Tous confirmés dans la stratégie. Détails dans `docs/validation/sources.md`.
+- Ajout d'une section `Économie` (état actuel de l'écosystème) distincte de la section Objectifs, pour ne pas présenter des faits actuels comme des cibles : 800 000 emplois numériques, 140 G$ PIB, 150 000 emplois IA, 3 500+ entreprises, 37 G$ capital de risque, 187 G$ apport estimé de l'IA générative d'ici 2030.
+- Ajout dans les Objectifs d'une cible de calcul (850 MW d'ici 2030) et d'une carte sur l'accès des étudiants aux agents d'IA.
+- Ajout d'un lien de navigation `Économie`.
+- Restriction du clic actif des cartes Objectif à leur propre grille pour éviter toute interférence avec la nouvelle grille.
+- Vérification syntaxique `node --check` sur `app.js` et `server.mjs`, et confirmation que le serveur local sert bien les fichiers mis à jour.
+
+## 2026-06-04, archivage du texte brut et investissements
+
+### Contexte
+
+Ulrich a archivé le texte intégral de la stratégie dans `strategie.md`. La vérification passe d'un résumé d'outil au texte brut officiel.
+
+### Actions
+
+- Comparaison de chaque carte au texte brut `strategie.md`. Tous les chiffres, ceux de Codex comme ceux ajoutés, sont confirmés au mot près.
+- Ajout au suivi des engagements financiers chiffrés, tous verbatim : LIFT 500 M$, Initiative régionale en IA 500 M$, Fonds canadien de croissance technologique 500 M$, Institut canadien de la sécurité de l'IA 50 M$, Espace de données du secteur de la santé 100 M$.
+- Vérification `node --check` sur `app.js`, fichiers servis confirmés sur le serveur local.
