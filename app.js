@@ -29,7 +29,6 @@ const content = {
     heroTitle: "L'IA pour tous, en guide interactif.",
     heroLead:
       "Un guide interactif bilingue pour parcourir les piliers, objectifs, secteurs prioritaires et engagements de la stratégie nationale canadienne en IA.",
-    heroPrimary: "Explorer la stratégie",
     disclaimer:
       "Ce site n'est pas produit par le gouvernement du Canada. Les chiffres et comparaisons du tableau de bord proviennent de la stratégie nationale L'IA pour tous.",
     wheelAria: "Schéma des axes de la stratégie",
@@ -275,7 +274,6 @@ const content = {
     heroTitle: "AI for All, as an interactive guide.",
     heroLead:
       "A bilingual interactive guide to the pillars, targets, priority sectors and commitments in Canada's national AI strategy.",
-    heroPrimary: "Explore the strategy",
     disclaimer:
       "This site is not produced by the Government of Canada. The figures and comparisons in the dashboard come from the national strategy AI for All.",
     wheelAria: "Diagram of the strategy axes",
