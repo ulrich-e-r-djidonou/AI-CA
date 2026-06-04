@@ -131,3 +131,16 @@ Finalisation du projet sur la branche `claude/google-io-2026-search-AFAHJ` aprè
 - Retrait de `preview.png` et `assets/og-card.html` du `.gitignore` pour publication sur GitHub Pages.
 - URL canonique posée à `https://ulrich-e-r-djidonou.github.io/AI-CA/`, à ajuster si le déploiement vise un autre domaine.
 - Vérifications : JSON-LD parse sans erreur, `node --check` sur `app.js` et `server.mjs`, site servi en 200, rendu bilingue capturé dans `docs/validation/finalize-fr.png`.
+
+## 2026-06-04, cadrage personnel et préparation à la publication
+
+### Contexte
+
+Le projet doit rester un produit personnel neutre et clairement non gouvernemental, sans prise de position éditoriale, pour ne pas exposer l'auteur dans un contexte d'emploi public.
+
+### Actions
+
+- Correction de la description `Person` du JSON-LD pour coller au positionnement réel : économiste quantitatif (économétrie, machine learning et IA appliquée à la décision), au lieu d'une formulation héritée d'un autre projet.
+- Ajout d'une byline visible dans le pied de page, bilingue FR/EN, avec lien LinkedIn : signale un projet personnel et indépendant.
+- Mention non gouvernementale transformée en encadré visible (filet rouge, fond léger) sous le hero, au lieu d'un petit texte gris.
+- Aucune opinion ou critique ajoutée : le contenu reste strictement factuel et sourcé.
