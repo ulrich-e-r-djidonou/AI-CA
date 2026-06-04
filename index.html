@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Observatoire interactif independant de la strategie nationale canadienne en intelligence artificielle, AI for All."
+    />
+    <title>Observatoire IA Canada</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Retour au debut">
+        <span class="brand-mark">AI</span>
+        <span>
+          <strong>Observatoire IA Canada</strong>
+          <small>Analyse independante</small>
+        </span>
+      </a>
+      <nav aria-label="Navigation principale">
+        <a href="#piliers">Piliers</a>
+        <a href="#secteurs">Secteurs</a>
+        <a href="#objectifs">Objectifs</a>
+        <a href="#suivi">Suivi</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Strategie nationale, 2026</p>
+          <h1>AI for All, en tableau de bord lisible.</h1>
+          <p class="hero-lead">
+            Un site interactif pour suivre les piliers, objectifs, secteurs
+            prioritaires et engagements de la strategie canadienne en IA.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#piliers">Explorer la strategie</a>
+            <a
+              class="button secondary"
+              href="https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Source officielle
+            </a>
+          </div>
+          <p class="disclaimer">
+            Site d'analyse independant base sur des sources publiques du
+            gouvernement du Canada. Ce site n'est pas un service officiel.
+          </p>
+        </div>
+
+        <div class="strategy-wheel" aria-label="Schema des axes de la strategie">
+          <div class="wheel-center">
+            <span>AI for All</span>
+            <strong>Confiance, opportunite, souverainete</strong>
+          </div>
+          <button class="wheel-node node-1" data-pillar="0">Protection</button>
+          <button class="wheel-node node-2" data-pillar="1">Competences</button>
+          <button class="wheel-node node-3" data-pillar="2">Adoption</button>
+          <button class="wheel-node node-4" data-pillar="3">Souverainete</button>
+          <button class="wheel-node node-5" data-pillar="4">Champions</button>
+          <button class="wheel-node node-6" data-pillar="5">Alliances</button>
+        </div>
+      </section>
+
+      <section class="metrics-band" aria-label="Objectifs annonces">
+        <article>
+          <span class="metric-value">12%</span>
+          <span class="metric-label">adoption actuelle des entreprises</span>
+        </article>
+        <article>
+          <span class="metric-value">60%</span>
+          <span class="metric-label">cible d'adoption d'ici 2034</span>
+        </article>
+        <article>
+          <span class="metric-value">250k</span>
+          <span class="metric-label">emplois vises par l'adoption IA</span>
+        </article>
+        <article>
+          <span class="metric-value">$200B</span>
+          <span class="metric-label">gains de PIB annonces</span>
+        </article>
+      </section>
+
+      <section class="section intro-grid" aria-labelledby="lecture-title">
+        <div>
+          <p class="eyebrow">Lecture economique</p>
+          <h2 id="lecture-title">Le vrai enjeu est l'adoption, pas seulement la recherche.</h2>
+        </div>
+        <p>
+          Le Canada possede une base forte en recherche, talents et entreprises
+          IA. La strategie 2026 deplace le centre de gravite vers l'adoption par
+          les PME, la fonction publique, les secteurs industriels et les
+          infrastructures souveraines de calcul.
+        </p>
+      </section>
+
+      <section class="section" id="piliers" aria-labelledby="piliers-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Six piliers</p>
+            <h2 id="piliers-title">Explorer la logique de la strategie</h2>
+          </div>
+          <p>
+            Cliquez sur un pilier pour voir sa fonction, les leviers publics et
+            les risques de suivi.
+          </p>
+        </div>
+        <div class="pillar-layout">
+          <div class="pillar-list" role="tablist" aria-label="Piliers de la strategie">
+            <button class="pillar-tab active" role="tab" aria-selected="true" data-index="0">Protection</button>
+            <button class="pillar-tab" role="tab" aria-selected="false" data-index="1">Competences</button>
+            <button class="pillar-tab" role="tab" aria-selected="false" data-index="2">Adoption</button>
+            <button class="pillar-tab" role="tab" aria-selected="false" data-index="3">Souverainete</button>
+            <button class="pillar-tab" role="tab" aria-selected="false" data-index="4">Champions</button>
+            <button class="pillar-tab" role="tab" aria-selected="false" data-index="5">Alliances</button>
+          </div>
+          <article class="pillar-detail" aria-live="polite">
+            <span id="pillar-kicker">Pilier 1</span>
+            <h3 id="pillar-title"></h3>
+            <p id="pillar-summary"></p>
+            <div class="detail-columns">
+              <div>
+                <h4>Leviers</h4>
+                <ul id="pillar-actions"></ul>
+              </div>
+              <div>
+                <h4>A surveiller</h4>
+                <ul id="pillar-watch"></ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section sectors" id="secteurs" aria-labelledby="secteurs-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Secteurs prioritaires</p>
+            <h2 id="secteurs-title">Ou l'IA doit produire des gains visibles</h2>
+          </div>
+          <p>
+            Ces secteurs combinent avantages industriels, besoins publics et
+            enjeux de souverainete.
+          </p>
+        </div>
+        <div class="sector-filters" role="list" aria-label="Filtres de secteurs">
+          <button class="filter active" data-sector="all">Tous</button>
+          <button class="filter" data-sector="public">Biens publics</button>
+          <button class="filter" data-sector="industrial">Industrie</button>
+          <button class="filter" data-sector="resource">Ressources</button>
+        </div>
+        <div class="sector-grid" id="sector-grid"></div>
+      </section>
+
+      <section class="section objectives" id="objectifs" aria-labelledby="objectifs-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Objectifs chiffrés</p>
+            <h2 id="objectifs-title">Tableau de bord des cibles</h2>
+          </div>
+          <p>
+            Les cibles ci-dessous reprennent la strategie complete publiee par
+            ISDE. La page d'aperçu mentionne aussi une cible de 75% d'adoption
+            d'ici 2031, a clarifier dans le suivi.
+          </p>
+        </div>
+        <div class="goal-grid" id="goal-grid"></div>
+        <div class="simulator">
+          <div>
+            <p class="eyebrow">Simulation simple</p>
+            <h3>Trajectoire d'adoption des entreprises</h3>
+            <p>
+              Ajustez la cible pour visualiser l'effort moyen annuel requis
+              depuis le niveau annonce de 12%.
+            </p>
+          </div>
+          <label for="target-range">
+            Cible d'adoption
+            <span id="target-label">60%</span>
+          </label>
+          <input id="target-range" type="range" min="20" max="80" value="60" />
+          <div class="bar-track" aria-hidden="true">
+            <span id="adoption-bar"></span>
+          </div>
+          <p id="adoption-note" class="sim-note"></p>
+        </div>
+      </section>
+
+      <section class="section tracker" id="suivi" aria-labelledby="suivi-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Suivi des engagements</p>
+            <h2 id="suivi-title">De l'annonce a l'execution</h2>
+          </div>
+          <p>
+            Une grille pour distinguer ce qui est annonce, finance, en chantier
+            ou encore a verifier.
+          </p>
+        </div>
+        <div class="tracker-grid" id="tracker-grid"></div>
+      </section>
+
+      <section class="section sources" aria-labelledby="sources-title">
+        <div>
+          <p class="eyebrow">Sources</p>
+          <h2 id="sources-title">Base documentaire</h2>
+        </div>
+        <ol>
+          <li>
+            <a
+              href="https://ised-isde.canada.ca/site/ised/en/artificial-intelligence-ecosystem/overview-canadas-national-artificial-intelligence-strategy"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Aperçu officiel AI for All, ISDE, modifie le 4 juin 2026
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://ised-isde.canada.ca/site/ised/en/canadas-national-artificial-intelligence-strategy-ai-all"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Strategie nationale complete, AI for All
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.pm.gc.ca/en/news/news-releases/2026/06/04/prime-minister-carney-launches-ai-all-canadas-new-national-artificial"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Communique du premier ministre, 4 juin 2026
+            </a>
+          </li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Observatoire IA Canada</span>
+      <span>Analyse independante, sources publiques.</span>
+    </footer>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
