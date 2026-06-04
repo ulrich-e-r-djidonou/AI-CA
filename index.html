@@ -5,11 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Guide interactif de la stratégie nationale canadienne en matière d'intelligence artificielle, L'IA pour tous."
+      content="Guide bilingue interactif de la stratégie nationale canadienne en matière d'intelligence artificielle, L'IA pour tous."
     />
-    <title>Guide L'IA pour tous Canada</title>
-
-    <!-- SEO / GEO : standard Google I/O 2026 -->
     <meta name="author" content="Ulrich Djidonou" />
     <meta
       name="keywords"
@@ -20,28 +17,26 @@
     <link rel="alternate" hreflang="fr" href="https://ulrich-e-r-djidonou.github.io/AI-CA/" />
     <link rel="alternate" hreflang="en" href="https://ulrich-e-r-djidonou.github.io/AI-CA/" />
     <link rel="alternate" hreflang="x-default" href="https://ulrich-e-r-djidonou.github.io/AI-CA/" />
-
-    <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://ulrich-e-r-djidonou.github.io/AI-CA/" />
     <meta property="og:site_name" content="Guide L'IA pour tous Canada" />
-    <meta property="og:title" content="Guide L'IA pour tous : stratégie nationale d'IA du Canada" />
+    <meta property="og:title" content="Guide L'IA pour tous Canada" />
     <meta
       property="og:description"
-      content="Guide interactif de la stratégie nationale canadienne en intelligence artificielle, L'IA pour tous : piliers, objectifs chiffrés, secteurs prioritaires, investissements et suivi des engagements. Chaque chiffre est traçable à la stratégie officielle."
+      content="Guide bilingue interactif de la stratégie nationale canadienne en IA. Les chiffres du tableau de bord proviennent de la stratégie nationale."
     />
     <meta property="og:image" content="https://ulrich-e-r-djidonou.github.io/AI-CA/preview.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:locale" content="fr_FR" />
-    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale" content="fr_CA" />
+    <meta property="og:locale:alternate" content="en_CA" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Guide L'IA pour tous : stratégie nationale d'IA du Canada" />
+    <meta name="twitter:title" content="Guide L'IA pour tous Canada" />
     <meta
       name="twitter:description"
-      content="Guide interactif de la stratégie nationale canadienne en intelligence artificielle, L'IA pour tous. Piliers, objectifs chiffrés, secteurs prioritaires et investissements, traçables à la stratégie officielle."
+      content="Guide interactif bilingue de la stratégie nationale canadienne en IA. Piliers, objectifs chiffrés, secteurs prioritaires et investissements, traçables à la stratégie officielle."
     />
     <meta name="twitter:image" content="https://ulrich-e-r-djidonou.github.io/AI-CA/preview.png" />
     <meta name="twitter:creator" content="@ulrichdjidonou" />
@@ -56,7 +51,7 @@
           "@id": "https://ulrich-e-r-djidonou.github.io/AI-CA/#website",
           "url": "https://ulrich-e-r-djidonou.github.io/AI-CA/",
           "name": "Guide L'IA pour tous Canada",
-          "description": "Guide interactif de la strategie nationale canadienne en matiere d'intelligence artificielle, L'IA pour tous.",
+          "description": "Guide interactif bilingue de la strategie nationale canadienne en matiere d'intelligence artificielle, L'IA pour tous.",
           "inLanguage": ["fr", "en"],
           "author": { "@id": "https://ulrich-e-r-djidonou.github.io/AI-CA/#author" }
         },
@@ -173,100 +168,92 @@
     }
     </script>
 
+    <title>Guide L'IA pour tous Canada</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Retour au début">
-        <span class="brand-mark">IA</span>
+      <a class="brand" href="#top" aria-label="Retour au début" data-i18n-attr="aria-label:brandAria">
+        <span class="brand-mark" data-i18n="brandMark">IA</span>
         <span>
-          <strong>Guide L'IA pour tous Canada</strong>
-          <small>Guide interactif</small>
+          <strong data-i18n="brandTitle">Guide L'IA pour tous Canada</strong>
+          <small data-i18n="brandSubtitle">Guide interactif</small>
         </span>
       </a>
-      <nav aria-label="Navigation principale">
-        <a href="#economie">Économie</a>
-        <a href="#piliers">Piliers</a>
-        <a href="#secteurs">Secteurs</a>
-        <a href="#objectifs">Objectifs</a>
-        <a href="#suivi">Suivi</a>
+      <nav aria-label="Navigation principale" data-i18n-attr="aria-label:navAria">
+        <a href="#economie" data-i18n="navEconomy">Économie</a>
+        <a href="#piliers" data-i18n="navPillars">Piliers</a>
+        <a href="#secteurs" data-i18n="navSectors">Secteurs</a>
+        <a href="#comparaisons" data-i18n="navComparisons">Comparaisons</a>
+        <a href="#objectifs" data-i18n="navTargets">Objectifs</a>
+        <a href="#suivi" data-i18n="navFollowup">Suivi</a>
       </nav>
+      <div class="language-switcher" aria-label="Choix de la langue" data-i18n-attr="aria-label:languageAria">
+        <button class="lang-button active" type="button" data-lang="fr">FR</button>
+        <button class="lang-button" type="button" data-lang="en">EN</button>
+      </div>
     </header>
 
     <main id="top">
       <section class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">Stratégie nationale, 2026</p>
-          <h1>L'IA pour tous, en guide interactif.</h1>
-          <p class="hero-lead">
-            Un guide interactif pour parcourir les piliers, objectifs, secteurs
-            prioritaires et engagements de la stratégie nationale canadienne en IA.
+          <p class="eyebrow" data-i18n="heroEyebrow">Stratégie nationale, 2026</p>
+          <h1 data-i18n="heroTitle">L'IA pour tous, en guide interactif.</h1>
+          <p class="hero-lead" data-i18n="heroLead">
+            Un guide interactif bilingue pour parcourir les piliers, objectifs, secteurs prioritaires et engagements de la stratégie nationale canadienne en IA.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#piliers">Explorer la stratégie</a>
+            <a class="button primary" href="#piliers" data-i18n="heroPrimary">Explorer la stratégie</a>
+            <a
+              class="button secondary"
+              id="strategy-link"
+              href="https://ised-isde.canada.ca/site/isde/fr/strategie-nationale-matiere-dintelligence-artificielle-canada-lia-pour-tous"
+              target="_blank"
+              rel="noreferrer"
+              data-i18n="heroSource"
+            >
+              Stratégie nationale
+            </a>
           </div>
-          <p class="disclaimer">
-            Ce site n'est pas produit par le gouvernement du Canada. Il s'appuie
-            sur la stratégie nationale L'IA pour tous et le communiqué du premier
-            ministre du 4 juin 2026.
+          <p class="disclaimer" data-i18n="disclaimer">
+            Ce site n'est pas produit par le gouvernement du Canada. Les chiffres et comparaisons du tableau de bord proviennent de la stratégie nationale L'IA pour tous.
           </p>
         </div>
 
-        <div class="strategy-wheel" aria-label="Schéma des axes de la stratégie">
+        <div class="strategy-wheel" aria-label="Schéma des axes de la stratégie" data-i18n-attr="aria-label:wheelAria">
           <div class="wheel-center">
-            <span>L'IA pour tous</span>
-            <strong>Confiance, opportunité, souveraineté</strong>
+            <span data-i18n="wheelCenterTitle">L'IA pour tous</span>
+            <strong data-i18n="wheelCenterSubtitle">Confiance, possibilités, souveraineté</strong>
           </div>
-          <button class="wheel-node node-1" data-pillar="0">Protection</button>
-          <button class="wheel-node node-2" data-pillar="1">Compétences</button>
-          <button class="wheel-node node-3" data-pillar="2">Adoption</button>
-          <button class="wheel-node node-4" data-pillar="3">Souveraineté</button>
-          <button class="wheel-node node-5" data-pillar="4">Champions</button>
-          <button class="wheel-node node-6" data-pillar="5">Alliances</button>
+          <button class="wheel-node node-1" data-pillar="0" data-i18n="wheelProtection">Protection</button>
+          <button class="wheel-node node-2" data-pillar="1" data-i18n="wheelSkills">Compétences</button>
+          <button class="wheel-node node-3" data-pillar="2" data-i18n="wheelAdoption">Adoption</button>
+          <button class="wheel-node node-4" data-pillar="3" data-i18n="wheelSovereignty">Souveraineté</button>
+          <button class="wheel-node node-5" data-pillar="4" data-i18n="wheelChampions">Champions</button>
+          <button class="wheel-node node-6" data-pillar="5" data-i18n="wheelAlliances">Alliances</button>
         </div>
       </section>
 
-      <section class="metrics-band" aria-label="Objectifs annoncés">
-        <article>
-          <span class="metric-value">12 %</span>
-          <span class="metric-label">adoption actuelle des entreprises</span>
-        </article>
-        <article>
-          <span class="metric-value">60 %</span>
-          <span class="metric-label">cible d'adoption d'ici 2034</span>
-        </article>
-        <article>
-          <span class="metric-value">250 000</span>
-          <span class="metric-label">nouveaux emplois liés à l'IA d'ici 2031</span>
-        </article>
-        <article>
-          <span class="metric-value">200 G$</span>
-          <span class="metric-label">gains économiques visés par la stratégie</span>
-        </article>
-      </section>
+      <section class="metrics-band" aria-label="Objectifs annoncés" data-i18n-attr="aria-label:metricsAria" id="metrics-band"></section>
 
       <section class="section intro-grid" aria-labelledby="lecture-title">
         <div>
-          <p class="eyebrow">Lecture économique</p>
-          <h2 id="lecture-title">Le vrai enjeu est l'adoption, pas seulement la recherche.</h2>
+          <p class="eyebrow" data-i18n="readingEyebrow">Lecture économique</p>
+          <h2 id="lecture-title" data-i18n="readingTitle">Le vrai enjeu est l'adoption, pas seulement la recherche.</h2>
         </div>
-        <p>
-          Le Canada possède une base forte en recherche, talents et entreprises
-          IA. La stratégie 2026 déplace le centre de gravité vers l'adoption par
-          les PME, la fonction publique, les secteurs industriels et les
-          infrastructures souveraines de calcul.
+        <p data-i18n="readingBody">
+          Le Canada possède une base forte en recherche, talents et entreprises IA. La stratégie 2026 déplace le centre de gravité vers l'adoption par les PME, la fonction publique, les secteurs industriels et les infrastructures souveraines de calcul.
         </p>
       </section>
 
       <section class="section" id="economie" aria-labelledby="economie-title">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Point de départ</p>
-            <h2 id="economie-title">L'écosystème canadien de l'IA aujourd'hui</h2>
+            <p class="eyebrow" data-i18n="economyEyebrow">Point de départ</p>
+            <h2 id="economie-title" data-i18n="economyTitle">L'écosystème canadien de l'IA aujourd'hui</h2>
           </div>
-          <p>
-            Ces chiffres décrivent la base économique sur laquelle s'appuie la
-            stratégie. Ils sont présentés comme état actuel, pas comme cibles.
+          <p data-i18n="economyBody">
+            Ces chiffres décrivent la base économique sur laquelle s'appuie la stratégie. Ils sont présentés comme état actuel, pas comme cibles.
           </p>
         </div>
         <div class="goal-grid" id="economy-grid"></div>
@@ -275,34 +262,26 @@
       <section class="section" id="piliers" aria-labelledby="piliers-title">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Six piliers</p>
-            <h2 id="piliers-title">Explorer la logique de la stratégie</h2>
+            <p class="eyebrow" data-i18n="pillarsEyebrow">Six piliers</p>
+            <h2 id="piliers-title" data-i18n="pillarsTitle">Explorer la logique de la stratégie</h2>
           </div>
-          <p>
-            Cliquez sur un pilier pour voir sa fonction, les leviers publics et
-            les points de suivi tirés de la stratégie.
+          <p data-i18n="pillarsBody">
+            Cliquez sur un pilier pour voir sa fonction, les leviers publics et les points de suivi tirés de la stratégie.
           </p>
         </div>
         <div class="pillar-layout">
-          <div class="pillar-list" role="tablist" aria-label="Piliers de la stratégie">
-            <button class="pillar-tab active" role="tab" aria-selected="true" data-index="0">Protection</button>
-            <button class="pillar-tab" role="tab" aria-selected="false" data-index="1">Compétences</button>
-            <button class="pillar-tab" role="tab" aria-selected="false" data-index="2">Adoption</button>
-            <button class="pillar-tab" role="tab" aria-selected="false" data-index="3">Souveraineté</button>
-            <button class="pillar-tab" role="tab" aria-selected="false" data-index="4">Champions</button>
-            <button class="pillar-tab" role="tab" aria-selected="false" data-index="5">Alliances</button>
-          </div>
+          <div class="pillar-list" role="tablist" aria-label="Piliers de la stratégie" data-i18n-attr="aria-label:pillarTabsAria" id="pillar-tabs"></div>
           <article class="pillar-detail" aria-live="polite">
             <span id="pillar-kicker">Pilier 1</span>
             <h3 id="pillar-title"></h3>
             <p id="pillar-summary"></p>
             <div class="detail-columns">
               <div>
-                <h4>Leviers</h4>
+                <h4 data-i18n="leversLabel">Leviers</h4>
                 <ul id="pillar-actions"></ul>
               </div>
               <div>
-                <h4>À suivre dans la stratégie</h4>
+                <h4 data-i18n="followLabel">À suivre dans la stratégie</h4>
                 <ul id="pillar-watch"></ul>
               </div>
             </div>
@@ -313,33 +292,25 @@
       <section class="section sectors" id="secteurs" aria-labelledby="secteurs-title">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Secteurs prioritaires</p>
-            <h2 id="secteurs-title">Où l'IA doit produire des gains visibles</h2>
+            <p class="eyebrow" data-i18n="sectorsEyebrow">Secteurs prioritaires</p>
+            <h2 id="secteurs-title" data-i18n="sectorsTitle">Où l'IA doit produire des gains visibles</h2>
           </div>
-          <p>
-            Ces secteurs reprennent les domaines où la stratégie nationale situe
-            des actifs de données, des services publics ou une valeur économique
-            importante.
+          <p data-i18n="sectorsBody">
+            Ces secteurs reprennent les domaines où la stratégie nationale situe des actifs de données, des services publics ou une valeur économique importante.
           </p>
         </div>
-        <div class="sector-filters" role="list" aria-label="Filtres de secteurs">
-          <button class="filter active" data-sector="all">Tous</button>
-          <button class="filter" data-sector="public">Biens publics</button>
-          <button class="filter" data-sector="industrial">Industrie</button>
-          <button class="filter" data-sector="resource">Ressources</button>
-        </div>
+        <div class="sector-filters" role="list" aria-label="Filtres de secteurs" data-i18n-attr="aria-label:sectorFiltersAria" id="sector-filters"></div>
         <div class="sector-grid" id="sector-grid"></div>
       </section>
 
       <section class="section comparisons" id="comparaisons" aria-labelledby="comparaisons-title">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Comparaisons tirées de la stratégie</p>
-            <h2 id="comparaisons-title">Situer le Canada avec les données disponibles</h2>
+            <p class="eyebrow" data-i18n="comparisonsEyebrow">Comparaisons tirées de la stratégie</p>
+            <h2 id="comparaisons-title" data-i18n="comparisonsTitle">Situer le Canada avec les données disponibles</h2>
           </div>
-          <p>
-            Cette section ne compare que les chiffres explicitement présents dans
-            la stratégie nationale. Aucune donnée externe n'est ajoutée.
+          <p data-i18n="comparisonsBody">
+            Cette section ne compare que les chiffres explicitement présents dans la stratégie nationale. Aucune donnée externe n'est ajoutée.
           </p>
         </div>
         <div class="comparison-grid" id="comparison-grid"></div>
@@ -348,27 +319,24 @@
       <section class="section objectives" id="objectifs" aria-labelledby="objectifs-title">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Objectifs chiffrés</p>
-            <h2 id="objectifs-title">Tableau de bord des cibles</h2>
+            <p class="eyebrow" data-i18n="targetsEyebrow">Objectifs chiffrés</p>
+            <h2 id="objectifs-title" data-i18n="targetsTitle">Tableau de bord des cibles</h2>
           </div>
-          <p>
-            Les cibles ci-dessous reprennent la stratégie nationale complète
-            publiée par ISDE en français. Les dates sont affichées lorsqu'elles
-            sont indiquées dans la stratégie.
+          <p data-i18n="targetsBody">
+            Les cibles ci-dessous reprennent la stratégie nationale complète. Les dates sont affichées lorsqu'elles sont indiquées dans la stratégie.
           </p>
         </div>
         <div class="goal-grid" id="goal-grid"></div>
         <div class="simulator">
           <div>
-            <p class="eyebrow">Simulation simple</p>
-            <h3>Trajectoire d'adoption des entreprises</h3>
-            <p>
-              Ajustez la cible pour visualiser l'effort moyen annuel requis
-              depuis le niveau annoncé de 12 %.
+            <p class="eyebrow" data-i18n="simulatorEyebrow">Simulation simple</p>
+            <h3 data-i18n="simulatorTitle">Trajectoire d'adoption des entreprises</h3>
+            <p data-i18n="simulatorBody">
+              Ajustez la cible pour visualiser l'effort moyen annuel requis depuis le niveau annoncé de 12 %.
             </p>
           </div>
           <label for="target-range">
-            Cible d'adoption
+            <span data-i18n="targetRangeLabel">Cible d'adoption</span>
             <span id="target-label">60 %</span>
           </label>
           <input id="target-range" type="range" min="20" max="80" value="60" />
@@ -382,12 +350,11 @@
       <section class="section tracker" id="suivi" aria-labelledby="suivi-title">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Suivi des engagements</p>
-            <h2 id="suivi-title">De l'annonce à l'exécution</h2>
+            <p class="eyebrow" data-i18n="followupEyebrow">Suivi des engagements</p>
+            <h2 id="suivi-title" data-i18n="followupTitle">De l'annonce à l'exécution</h2>
           </div>
-          <p>
-            Une grille pour distinguer les objectifs, les investissements et les
-            mesures à suivre dans la mise en oeuvre de la stratégie.
+          <p data-i18n="followupBody">
+            Une grille pour distinguer les objectifs, les investissements et les mesures à suivre dans la mise en oeuvre de la stratégie.
           </p>
         </div>
         <div class="tracker-grid" id="tracker-grid"></div>
@@ -395,35 +362,16 @@
 
       <section class="section sources" aria-labelledby="sources-title">
         <div>
-          <p class="eyebrow">Sources</p>
-          <h2 id="sources-title">Base documentaire</h2>
+          <p class="eyebrow" data-i18n="sourcesEyebrow">Sources</p>
+          <h2 id="sources-title" data-i18n="sourcesTitle">Base documentaire</h2>
         </div>
-        <ol>
-          <li>
-            <a
-              href="https://ised-isde.canada.ca/site/isde/fr/strategie-nationale-matiere-dintelligence-artificielle-canada-lia-pour-tous"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Stratégie nationale en matière d'intelligence artificielle du Canada : L'IA pour tous
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.pm.gc.ca/fr/nouvelles/communiques/2026/06/04/premier-ministre-carney-lance-lia-tous-la-nouvelle-strategie"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Communiqué du premier ministre, 4 juin 2026
-            </a>
-          </li>
-        </ol>
+        <ol id="sources-list"></ol>
       </section>
     </main>
 
     <footer class="site-footer">
-      <span>Guide L'IA pour tous Canada</span>
-      <span>Site non produit par le gouvernement du Canada.</span>
+      <span data-i18n="footerBrand">Guide L'IA pour tous Canada</span>
+      <span data-i18n="footerNote">Site non produit par le gouvernement du Canada.</span>
     </footer>
 
     <script src="app.js" type="module"></script>

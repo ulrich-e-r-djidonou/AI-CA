@@ -1,14 +1,18 @@
-# Guide AI for All Canada
+# Guide L'IA pour tous Canada
 
-Site interactif pour parcourir la strategie nationale canadienne en intelligence artificielle, `AI for All`, publiee le 4 juin 2026.
+Site bilingue interactif pour parcourir la stratégie nationale canadienne en matière d'intelligence artificielle, `L'IA pour tous` / `AI for All`, publiée le 4 juin 2026.
 
-Le projet transforme la strategie nationale en guide interactif : piliers, secteurs prioritaires, objectifs chiffrés, suivi des engagements et points de vigilance. Ce site n'est pas produit par le gouvernement du Canada.
+Le projet transforme la stratégie nationale en guide interactif français et anglais : piliers, secteurs prioritaires, objectifs chiffrés, comparaisons présentes dans la stratégie, suivi des engagements et sources. Ce site n'est pas produit par le gouvernement du Canada.
+
+## Règle d'or
+
+Rien ne doit apparaître dans le tableau de bord si l'information ne vient pas explicitement de la stratégie nationale `L'IA pour tous`.
 
 ## Stack
 
 - HTML, CSS et JavaScript natifs
-- Serveur local Node.js sans dependance externe
-- Sources publiques du gouvernement du Canada
+- Serveur local Node.js sans dépendance externe
+- Source principale : stratégie nationale publiée par ISDE, versions française et anglaise
 
 ## Commandes
 
@@ -18,7 +22,7 @@ npm run dev
 
 Puis ouvrir `http://localhost:4173`.
 
-Verification syntaxique du serveur :
+Vérification syntaxique du serveur :
 
 ```powershell
 npm run check
@@ -26,17 +30,22 @@ npm run check
 
 ## Sources principales
 
-- [Strategie nationale complete, AI for All](https://ised-isde.canada.ca/site/ised/en/canadas-national-artificial-intelligence-strategy-ai-all)
-- [Communique du premier ministre, 4 juin 2026](https://www.pm.gc.ca/en/news/news-releases/2026/06/04/prime-minister-carney-launches-ai-all-canadas-new-national-artificial)
+- [Stratégie nationale en matière d'intelligence artificielle du Canada : L'IA pour tous](https://ised-isde.canada.ca/site/isde/fr/strategie-nationale-matiere-dintelligence-artificielle-canada-lia-pour-tous)
+- [Canada's National Artificial Intelligence Strategy: AI for All](https://ised-isde.canada.ca/site/ised/en/canadas-national-artificial-intelligence-strategy-ai-all)
+- [Communiqué du premier ministre, 4 juin 2026](https://www.pm.gc.ca/fr/nouvelles/communiques/2026/06/04/premier-ministre-carney-lance-lia-tous-la-nouvelle-strategie)
+
+## Note de vérification
+
+`strategie-ia.md` est un fichier local de vérification utilisé pendant l'audit. Il est ignoré par Git et ne doit pas être committé.
 
 ## Statut
 
-Version initiale : prototype fonctionnel de guide interactif, avec une mention explicite que le site n'est pas produit par le gouvernement du Canada.
+Prototype fonctionnel de guide interactif, avec une mention explicite que le site n'est pas produit par le gouvernement du Canada.
 
 ## Documentation
 
 - [Instructions Codex](AGENTS.md)
 - [Journal de projet](docs/project-log.md)
-- [Decisions](docs/decisions.md)
+- [Décisions](docs/decisions.md)
 - [Validation et limites](docs/validation/sources.md)
-- [Prochaines etapes](docs/next-steps.md)
+- [Prochaines étapes](docs/next-steps.md)

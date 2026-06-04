@@ -28,3 +28,13 @@ Decision : limiter le contenu a la strategie nationale complete `AI for All` et 
 Raison : le projet doit porter sur la strategie nationale elle-meme, sans melanger d'autres pages de synthese ou d'autres cadres politiques.
 
 Statut : adoptee.
+
+## 2026-06-04, règle d'or du tableau de bord
+
+Décision : ne rien afficher dans le tableau de bord si l'information ne vient pas explicitement de la stratégie nationale `L'IA pour tous`.
+
+Raison : éviter les interprétations non sourcées, les recommandations inventées et les comparaisons externes non présentes dans la source officielle.
+
+Conséquence : les sections de comparaison ne peuvent utiliser que les chiffres déjà présents dans la stratégie nationale, par exemple les comparaisons d'adoption avec les pays nordiques, l'Allemagne et la France.
+
+Statut : adoptée.

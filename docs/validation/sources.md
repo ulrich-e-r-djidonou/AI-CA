@@ -5,12 +5,17 @@
 1. ISDE, stratégie nationale en matière d'intelligence artificielle du Canada : `L'IA pour tous`.
    URL : `https://ised-isde.canada.ca/site/isde/fr/strategie-nationale-matiere-dintelligence-artificielle-canada-lia-pour-tous`
 
-2. Cabinet du premier ministre, communiqué du 4 juin 2026.
+2. ISDE, English version: `Canada's National Artificial Intelligence Strategy: AI for All`.
+   URL : `https://ised-isde.canada.ca/site/ised/en/canadas-national-artificial-intelligence-strategy-ai-all`
+
+3. Cabinet du premier ministre, communiqué du 4 juin 2026.
    URL : `https://www.pm.gc.ca/fr/nouvelles/communiques/2026/06/04/premier-ministre-carney-lance-lia-tous-la-nouvelle-strategie`
 
 ## Règle d'or
 
 Les chiffres, comparaisons, secteurs, piliers et engagements visibles dans le tableau de bord doivent provenir explicitement de la stratégie nationale. La version actuelle a été recentrée sur la version française officielle d'ISDE.
+
+La version anglaise du site reprend les mêmes données et renvoie vers la version anglaise officielle de la même stratégie.
 
 ## Comparaisons autorisées dans la version actuelle
 
