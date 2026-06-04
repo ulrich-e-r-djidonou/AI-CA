@@ -1,8 +1,8 @@
 {
-  "name": "ai-ca-observatoire",
+  "name": "ai-ca-guide",
   "version": "0.1.0",
   "private": true,
-  "description": "Observatoire interactif independant de la strategie nationale canadienne en IA, AI for All.",
+  "description": "Guide interactif de la strategie nationale canadienne en IA, AI for All.",
   "scripts": {
     "dev": "node server.mjs",
     "check": "node --check server.mjs"

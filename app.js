@@ -179,8 +179,8 @@ const tracker = [
   {
     status: "A verifier",
     className: "watch",
-    title: "Cible 60% ou 75% d'adoption",
-    text: "La strategie complete mentionne 60% d'ici 2034, l'aperçu mentionne 75% d'ici 2031."
+    title: "Cible d'adoption de 60%",
+    text: "La strategie nationale vise une hausse de l'adoption de l'IA par les entreprises de 12% a 60% d'ici 2034."
   },
   {
     status: "Annonce",

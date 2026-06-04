@@ -13,10 +13,18 @@ Alternatives considerees :
 
 Statut : adoptee pour la version initiale.
 
-## 2026-06-04, positionnement non officiel
+## 2026-06-04, positionnement non gouvernemental
 
-Decision : afficher une mention claire indiquant que le site est une analyse independante basee sur des sources publiques.
+Decision : afficher une mention claire indiquant que le site n'est pas produit par le gouvernement du Canada.
 
-Raison : eviter toute confusion avec un service officiel du gouvernement du Canada.
+Raison : eviter toute confusion avec un service officiel du gouvernement du Canada, sans ajouter un positionnement editorial secondaire.
+
+Statut : adoptee.
+
+## 2026-06-04, sources limitees
+
+Decision : limiter le contenu a la strategie nationale complete `AI for All` et au communique du premier ministre du 4 juin 2026.
+
+Raison : le projet doit porter sur la strategie nationale elle-meme, sans melanger d'autres pages de synthese ou d'autres cadres politiques.
 
 Statut : adoptee.

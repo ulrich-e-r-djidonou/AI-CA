@@ -33,5 +33,5 @@ createServer(async (request, response) => {
     response.end("Not found");
   }
 }).listen(port, () => {
-  console.log(`AI-CA observatoire running at http://localhost:${port}`);
+  console.log(`AI-CA guide running at http://localhost:${port}`);
 });
