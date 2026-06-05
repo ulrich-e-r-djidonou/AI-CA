@@ -31,7 +31,7 @@ const content = {
     heroLead:
       "Un guide interactif bilingue pour parcourir les piliers, objectifs, secteurs prioritaires et engagements de la stratégie nationale canadienne en IA.",
     disclaimer:
-      "Ce site n'est pas produit par le gouvernement du Canada. Les chiffres et comparaisons du tableau de bord proviennent de la stratégie nationale L'IA pour tous.",
+      "Avertissement : Ce site n'est pas produit par le gouvernement du Canada. Les chiffres et comparaisons du tableau de bord proviennent de la stratégie nationale L'IA pour tous.",
     wheelAria: "Schéma des axes de la stratégie",
     wheelCenterTitle: "L'IA pour tous",
     wheelCenterSubtitle: "Confiance, possibilités, souveraineté",
@@ -83,7 +83,7 @@ const content = {
       "Une grille pour distinguer les objectifs, les investissements et les mesures à suivre dans la mise en oeuvre de la stratégie.",
     sourcesEyebrow: "Sources",
     sourcesTitle: "Base documentaire",
-    footerBrand: "Guide L'IA pour tous Canada",
+    footerBrand: "Stratégie nationale en matière d'intelligence artificielle du Canada : L'IA pour tous",
     footerNote: "Site non produit par le gouvernement du Canada.",
     bylineLabel: "Lecture indépendante réalisée par",
     bylineRole: ", économiste",
@@ -279,7 +279,7 @@ const content = {
     heroLead:
       "A bilingual interactive guide to the pillars, targets, priority sectors and commitments in Canada's national AI strategy.",
     disclaimer:
-      "This site is not produced by the Government of Canada. The figures and comparisons in the dashboard come from the national strategy AI for All.",
+      "Disclaimer: This site is not produced by the Government of Canada. The figures and comparisons in the dashboard come from the national strategy AI for All.",
     wheelAria: "Diagram of the strategy axes",
     wheelCenterTitle: "AI for All",
     wheelCenterSubtitle: "Trust, opportunity, sovereignty",
@@ -331,7 +331,7 @@ const content = {
       "A grid to distinguish targets, investments and implementation measures to follow in the strategy.",
     sourcesEyebrow: "Sources",
     sourcesTitle: "Document base",
-    footerBrand: "Canada AI for All Guide",
+    footerBrand: "Canada's National Artificial Intelligence Strategy: AI for All",
     footerNote: "Site not produced by the Government of Canada.",
     bylineLabel: "Independent reading by",
     bylineRole: ", economist",
