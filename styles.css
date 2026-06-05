@@ -724,6 +724,20 @@ input[type="range"] {
   gap: 1rem;
 }
 
+.footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.ca-flag {
+  width: 1.6rem;
+  height: 1.2rem;
+  flex: none;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+}
+
 .byline {
   margin: 0;
   font-size: 0.85rem;
