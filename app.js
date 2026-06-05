@@ -86,7 +86,7 @@ const content = {
     footerBrand: "Guide L'IA pour tous Canada",
     footerNote: "Site non produit par le gouvernement du Canada.",
     bylineLabel: "Lecture indépendante réalisée par",
-    bylineRole: ", économiste quantitatif",
+    bylineRole: ", économiste",
     filters: [
       { key: "all", label: "Tous" },
       { key: "public", label: "Biens publics" },
@@ -334,7 +334,7 @@ const content = {
     footerBrand: "Canada AI for All Guide",
     footerNote: "Site not produced by the Government of Canada.",
     bylineLabel: "Independent reading by",
-    bylineRole: ", quantitative economist",
+    bylineRole: ", economist",
     filters: [
       { key: "all", label: "All" },
       { key: "public", label: "Public goods" },
